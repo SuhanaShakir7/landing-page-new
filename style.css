@@ -1,0 +1,110 @@
+.main {
+    font-family: Space Grotesk;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize
+}
+
+.logo-name {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    gap: 22px;
+    font-size: 20px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 140px;
+
+}
+
+.heading-one {
+    margin-top: 60px;
+    font-size: 55px;
+    text-transform: capitalize;
+
+
+}
+
+.heading-two {
+    margin-top: 25px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.main1 {
+    background-color: black;
+    color: white;
+    ;
+    width: 170px;
+    margin-top: 30px;
+}
+
+.icons {
+    margin-top: 50px;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+
+}
+
+.button3 {
+    background-color: #B9FF66;
+    ;
+}
+
+.header3 {
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+    ul {
+        display: none;
+    }
+
+    .button-one {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-img>img {
+
+        width: 280px;
+        align-items: center;
+    }
+
+    .heading-one {
+        font-size: 40px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
